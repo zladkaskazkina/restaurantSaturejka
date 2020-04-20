@@ -3,12 +3,34 @@
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
+  box-sizing: border-box;
 }
 
 h1,
 h2 {
   font-family: "Playfair Display", serif;
 }
-.logo {
+main {
+  background-color: #ffefef;
+  width: 550px;
+  height: 1000px;
   margin: 0 auto;
+  padding: 20px;
+}
+.logo {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  background-color: white;
+  height: 80%;
+  width: 80%;
+}
+.title {
+  text-align: center;
+}
+p {
+  text-align: center;
 }
