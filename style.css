@@ -13,7 +13,6 @@ h2 {
 main {
   background-color: #ffefef;
   width: 550px;
-  height: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -39,4 +38,8 @@ p {
 }
 img {
   width: 30%;
+}
+.footer {
+  font-size: 0.5em;
+  text-align: center;
 }
