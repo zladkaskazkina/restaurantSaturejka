@@ -34,3 +34,9 @@ main {
 p {
   text-align: center;
 }
+.images-dishes {
+  display: flex;
+}
+img {
+  width: 30%;
+}
