@@ -10,11 +10,15 @@ h1,
 h2 {
   font-family: "Playfair Display", serif;
 }
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
 main {
   background-color: #ffefef;
   width: 700px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 img {
   width: 30%;
@@ -42,9 +46,7 @@ img {
 }
 .centering {
   text-align: center;
-  display: inline-block;
-  padding: 10px 50px;
-  margin: 0 auto;
+  padding: 10px 100px;
 }
 /* O restaurace */
 .images-dishes {
