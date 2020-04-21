@@ -12,9 +12,18 @@ h2 {
 }
 main {
   background-color: #ffefef;
-  width: 550px;
+  width: 700px;
   margin: 0 auto;
   padding: 20px;
+}
+img {
+  width: 30%;
+}
+/* Zahlavi - nazev */
+.logo-part {
+  margin: 0 auto;
+  padding: 30px;
+  width: 80%;
 }
 .logo {
   display: block;
@@ -31,19 +40,52 @@ main {
 .title {
   text-align: center;
 }
-p {
+.centering {
   text-align: center;
+  display: inline-block;
+  padding: 10px 50px;
+  margin: 0 auto;
 }
+/* O restaurace */
 .images-dishes {
+  margin: 20px 0;
   display: flex;
+
+  justify-content: space-between;
 }
-img {
-  width: 30%;
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.footer {
-  font-size: 0.5em;
-  text-align: center;
+.articles article {
+  width: 45%;
+  margin: 2% 0;
+}
+
+/* Jidla z menu */
+.dishes {
+  overflow: auto;
+}
+.dishes img {
+  padding: 20px;
+  width: 45%;
+}
+.float-left {
+  float: left;
 }
 .float {
-  float: left;
+  float: right;
+}
+button {
+  margin: 15px 0;
+  background-color: #ffefef;
+  border: none;
+  padding: 10px;
+}
+/* Footer */
+.footer {
+  padding: 10px 150px;
+  font-size: 0.5em;
+  text-align: center;
 }
